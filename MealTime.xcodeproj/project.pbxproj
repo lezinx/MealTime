@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		156CFD3D20C82F8100D7A1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CFD3C20C82F8100D7A1B4 /* AppDelegate.swift */; };
-		156CFD3F20C82F8100D7A1B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CFD3E20C82F8100D7A1B4 /* ViewController.swift */; };
+		156CFD3F20C82F8100D7A1B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CFD3E20C82F8100D7A1B4 /* LoginViewController.swift */; };
 		156CFD4220C82F8100D7A1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156CFD4020C82F8100D7A1B4 /* Main.storyboard */; };
 		156CFD4420C82F8100D7A1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156CFD4320C82F8100D7A1B4 /* Assets.xcassets */; };
 		156CFD4720C82F8100D7A1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156CFD4520C82F8100D7A1B4 /* LaunchScreen.storyboard */; };
+		156CFD4F20C82F8E00D7A1B4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 156CFD4E20C82F8E00D7A1B4 /* Podfile */; };
+		156CFD5320C8484100D7A1B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 156CFD5220C8484100D7A1B4 /* GoogleService-Info.plist */; };
+		183306357C7AEC8C2EF2E65A /* libPods-MealTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF57950505D2B93C9B46E91 /* libPods-MealTime.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BF57950505D2B93C9B46E91 /* libPods-MealTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MealTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		156CFD3920C82F8100D7A1B4 /* MealTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		156CFD3C20C82F8100D7A1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		156CFD3E20C82F8100D7A1B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		156CFD3E20C82F8100D7A1B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		156CFD4120C82F8100D7A1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		156CFD4320C82F8100D7A1B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		156CFD4620C82F8100D7A1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		156CFD4820C82F8100D7A1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		156CFD4E20C82F8E00D7A1B4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		156CFD5220C8484100D7A1B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		93F270ADC600023DE3E24DD8 /* Pods-MealTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealTime/Pods-MealTime.release.xcconfig"; sourceTree = "<group>"; };
+		CD7805F117081E8273FA6EB4 /* Pods-MealTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealTime/Pods-MealTime.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				183306357C7AEC8C2EF2E65A /* libPods-MealTime.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +47,11 @@
 		156CFD3020C82F8100D7A1B4 = {
 			isa = PBXGroup;
 			children = (
+				156CFD4E20C82F8E00D7A1B4 /* Podfile */,
 				156CFD3B20C82F8100D7A1B4 /* MealTime */,
 				156CFD3A20C82F8100D7A1B4 /* Products */,
+				B3784046DDBCE8C168D97F1B /* Pods */,
+				D864A6FEDB95A31B4BDC7A6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +67,31 @@
 			isa = PBXGroup;
 			children = (
 				156CFD3C20C82F8100D7A1B4 /* AppDelegate.swift */,
-				156CFD3E20C82F8100D7A1B4 /* ViewController.swift */,
+				156CFD3E20C82F8100D7A1B4 /* LoginViewController.swift */,
 				156CFD4020C82F8100D7A1B4 /* Main.storyboard */,
 				156CFD4320C82F8100D7A1B4 /* Assets.xcassets */,
 				156CFD4520C82F8100D7A1B4 /* LaunchScreen.storyboard */,
+				156CFD5220C8484100D7A1B4 /* GoogleService-Info.plist */,
 				156CFD4820C82F8100D7A1B4 /* Info.plist */,
 			);
 			path = MealTime;
+			sourceTree = "<group>";
+		};
+		B3784046DDBCE8C168D97F1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CD7805F117081E8273FA6EB4 /* Pods-MealTime.debug.xcconfig */,
+				93F270ADC600023DE3E24DD8 /* Pods-MealTime.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D864A6FEDB95A31B4BDC7A6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BF57950505D2B93C9B46E91 /* libPods-MealTime.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 156CFD4B20C82F8100D7A1B4 /* Build configuration list for PBXNativeTarget "MealTime" */;
 			buildPhases = (
+				589F33F74CEF498EB8C10FA7 /* [CP] Check Pods Manifest.lock */,
 				156CFD3520C82F8100D7A1B4 /* Sources */,
 				156CFD3620C82F8100D7A1B4 /* Frameworks */,
 				156CFD3720C82F8100D7A1B4 /* Resources */,
+				AFBB81143DDE47D80E03C73D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +157,61 @@
 			files = (
 				156CFD4720C82F8100D7A1B4 /* LaunchScreen.storyboard in Resources */,
 				156CFD4420C82F8100D7A1B4 /* Assets.xcassets in Resources */,
+				156CFD4F20C82F8E00D7A1B4 /* Podfile in Resources */,
 				156CFD4220C82F8100D7A1B4 /* Main.storyboard in Resources */,
+				156CFD5320C8484100D7A1B4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		589F33F74CEF498EB8C10FA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MealTime-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFBB81143DDE47D80E03C73D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MealTime/Pods-MealTime-resources.sh",
+				"${PODS_ROOT}/GTMOAuth2/Source/Touch/GTMOAuth2ViewTouch.xib",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GTMOAuth2ViewTouch.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MealTime/Pods-MealTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		156CFD3520C82F8100D7A1B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				156CFD3F20C82F8100D7A1B4 /* ViewController.swift in Sources */,
+				156CFD3F20C82F8100D7A1B4 /* LoginViewController.swift in Sources */,
 				156CFD3D20C82F8100D7A1B4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +347,7 @@
 		};
 		156CFD4C20C82F8100D7A1B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD7805F117081E8273FA6EB4 /* Pods-MealTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +363,7 @@
 		};
 		156CFD4D20C82F8100D7A1B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93F270ADC600023DE3E24DD8 /* Pods-MealTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
