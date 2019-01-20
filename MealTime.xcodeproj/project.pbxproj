@@ -7,18 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		154F3C5520CAB2590066136C /* DishesPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154F3C5420CAB2590066136C /* DishesPersonViewController.swift */; };
 		156CFD3D20C82F8100D7A1B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CFD3C20C82F8100D7A1B4 /* AppDelegate.swift */; };
 		156CFD3F20C82F8100D7A1B4 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 156CFD3E20C82F8100D7A1B4 /* LoginViewController.swift */; };
 		156CFD4220C82F8100D7A1B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156CFD4020C82F8100D7A1B4 /* Main.storyboard */; };
 		156CFD4420C82F8100D7A1B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156CFD4320C82F8100D7A1B4 /* Assets.xcassets */; };
 		156CFD4720C82F8100D7A1B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156CFD4520C82F8100D7A1B4 /* LaunchScreen.storyboard */; };
 		156CFD4F20C82F8E00D7A1B4 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 156CFD4E20C82F8E00D7A1B4 /* Podfile */; };
-		156CFD5320C8484100D7A1B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 156CFD5220C8484100D7A1B4 /* GoogleService-Info.plist */; };
 		183306357C7AEC8C2EF2E65A /* libPods-MealTime.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF57950505D2B93C9B46E91 /* libPods-MealTime.a */; };
+		FC3954C520CBE84B008A4EA7 /* SelectPersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3954C420CBE84B008A4EA7 /* SelectPersonViewController.swift */; };
+		FC3954C720CBEC4B008A4EA7 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3954C620CBEC4B008A4EA7 /* API.swift */; };
+		FC5BA0F920CB0ABD00304575 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC5BA0F820CB0ABD00304575 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0BF57950505D2B93C9B46E91 /* libPods-MealTime.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MealTime.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154F3C5420CAB2590066136C /* DishesPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesPersonViewController.swift; sourceTree = "<group>"; };
 		156CFD3920C82F8100D7A1B4 /* MealTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MealTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		156CFD3C20C82F8100D7A1B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		156CFD3E20C82F8100D7A1B4 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -27,9 +31,11 @@
 		156CFD4620C82F8100D7A1B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		156CFD4820C82F8100D7A1B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		156CFD4E20C82F8E00D7A1B4 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		156CFD5220C8484100D7A1B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		93F270ADC600023DE3E24DD8 /* Pods-MealTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-MealTime/Pods-MealTime.release.xcconfig"; sourceTree = "<group>"; };
 		CD7805F117081E8273FA6EB4 /* Pods-MealTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MealTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MealTime/Pods-MealTime.debug.xcconfig"; sourceTree = "<group>"; };
+		FC3954C420CBE84B008A4EA7 /* SelectPersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPersonViewController.swift; sourceTree = "<group>"; };
+		FC3954C620CBEC4B008A4EA7 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		FC5BA0F820CB0ABD00304575 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +73,11 @@
 			isa = PBXGroup;
 			children = (
 				156CFD3C20C82F8100D7A1B4 /* AppDelegate.swift */,
-				156CFD3E20C82F8100D7A1B4 /* LoginViewController.swift */,
+				FC5BA0F720CAFDE300304575 /* ViewControllers */,
 				156CFD4020C82F8100D7A1B4 /* Main.storyboard */,
-				156CFD4320C82F8100D7A1B4 /* Assets.xcassets */,
 				156CFD4520C82F8100D7A1B4 /* LaunchScreen.storyboard */,
-				156CFD5220C8484100D7A1B4 /* GoogleService-Info.plist */,
+				156CFD4320C82F8100D7A1B4 /* Assets.xcassets */,
+				FC5BA0F820CB0ABD00304575 /* GoogleService-Info.plist */,
 				156CFD4820C82F8100D7A1B4 /* Info.plist */,
 			);
 			path = MealTime;
@@ -92,6 +98,17 @@
 				0BF57950505D2B93C9B46E91 /* libPods-MealTime.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC5BA0F720CAFDE300304575 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				156CFD3E20C82F8100D7A1B4 /* LoginViewController.swift */,
+				FC3954C420CBE84B008A4EA7 /* SelectPersonViewController.swift */,
+				154F3C5420CAB2590066136C /* DishesPersonViewController.swift */,
+				FC3954C620CBEC4B008A4EA7 /* API.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -128,6 +145,7 @@
 				TargetAttributes = {
 					156CFD3820C82F8100D7A1B4 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,9 +175,9 @@
 			files = (
 				156CFD4720C82F8100D7A1B4 /* LaunchScreen.storyboard in Resources */,
 				156CFD4420C82F8100D7A1B4 /* Assets.xcassets in Resources */,
+				FC5BA0F920CB0ABD00304575 /* GoogleService-Info.plist in Resources */,
 				156CFD4F20C82F8E00D7A1B4 /* Podfile in Resources */,
 				156CFD4220C82F8100D7A1B4 /* Main.storyboard in Resources */,
-				156CFD5320C8484100D7A1B4 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -212,7 +230,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				156CFD3F20C82F8100D7A1B4 /* LoginViewController.swift in Sources */,
+				154F3C5520CAB2590066136C /* DishesPersonViewController.swift in Sources */,
 				156CFD3D20C82F8100D7A1B4 /* AppDelegate.swift in Sources */,
+				FC3954C720CBEC4B008A4EA7 /* API.swift in Sources */,
+				FC3954C520CBE84B008A4EA7 /* SelectPersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +360,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
@@ -350,12 +372,18 @@
 			baseConfigurationReference = CD7805F117081E8273FA6EB4 /* Pods-MealTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2YJUGMUZ7F;
 				INFOPLIST_FILE = MealTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ZiongLe.MealTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MealTime/MealTime-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -366,12 +394,17 @@
 			baseConfigurationReference = 93F270ADC600023DE3E24DD8 /* Pods-MealTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2YJUGMUZ7F;
 				INFOPLIST_FILE = MealTime/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ZiongLe.MealTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "MealTime/MealTime-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
